@@ -14,7 +14,7 @@ public:
     OrientationModule() :
         m_latency(0)
     {
-        /* Union is non-trival. Initialize Quaternion because is larger. */
+        /* Union is non-trival. Initialize Quaternion because it is larger. */
         m_quaternion = {};
     }
 
@@ -22,7 +22,7 @@ public:
     {
         m_latency = other.m_latency;
 
-        /* Union is non-trival. Copy Quaternion because is larger. */
+        /* Union is non-trival. Copy Quaternion because it is larger. */
         m_quaternion = other.m_quaternion;
     }
 

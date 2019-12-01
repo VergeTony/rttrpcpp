@@ -20,6 +20,9 @@ For further information, including packet definitions and protocol use cases, pl
 - gtest (**for building unit tests only**)
 - c++11 compiler
 
+## Info
+**author:** Tony Samaritano, Verge Inc.
+
 # Build (POSIX)
 1. Clone repo
 2. Create build folder
