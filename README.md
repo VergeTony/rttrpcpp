@@ -6,7 +6,7 @@ The RTTrP is a suite of protocols developed to transmit tracked motion informati
 RTTrP is comprised of two separate protocols which share a common header:
 
 * RTTrPM (Real-Time Tracking Protocol - Motion)
-* RTTrPL (Real-Time Tracking Protocol - Lighting) **NO YET SUPPORTED**
+* RTTrPL (Real-Time Tracking Protocol - Lighting) **NOT YET SUPPORTED**
 
 This library provides a cross platform implementation of the RTTrPM protocol for creating and parsing RTTrPM messages as a pure c++11 implmentation. The library utilizes cmake to create cross-platform builds and should be portable to any c++11 compatable compiler.
 
