@@ -44,7 +44,7 @@ size_t RTTrPHeader::toBytes(uint8_t * const buf)
     size_t ret = 0;
     m_size = getSize();
     uint16_t intsig = Serializable::htons(RTTRP_INTEGER_SIGNATURE_BE);
-    uint16_t fltsig = Serializable::htons(RTTRP_FLOAT_SIGNATURE_BE);
+    uint16_t fltsig = Serializable::htons(RTTRP_FLOAT_SIGNATURE_LE);
     uint16_t size = Serializable::htons(m_size);
     uint16_t version = Serializable::htons(static_cast<uint16_t>(m_version));
     uint32_t packetId = Serializable::htonl(static_cast<uint8_t>(m_packetId));
